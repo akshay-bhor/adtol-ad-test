@@ -7,9 +7,4 @@ module.exports = merge(common, {
     output: {
         filename: "[name].bundle.js",
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: 'index.html'
-        })
-    ]
 })

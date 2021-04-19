@@ -11,9 +11,6 @@ module.exports = merge(common, {
         path: path.resolve(__dirname, "dist")
     },
     plugins: [
-        new CleanWebpackPlugin(),
-        new HtmlWebpackPlugin({
-            template: 'index.html'
-        })
+        new CleanWebpackPlugin()
     ]
 })
