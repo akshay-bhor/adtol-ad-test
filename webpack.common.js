@@ -11,10 +11,15 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
+                exclude : [
+                    /\bcore-js\b/,
+                ],
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/preset-env'],
+                        presets: [
+                            ['@babel/preset-env', { useBuiltIns: "usage", corejs: 3 }]
+                        ],
                     }
                 }
             }

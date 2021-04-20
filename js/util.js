@@ -1,5 +1,5 @@
 
-exports.randomId = (length) => {
+const randomId = (length) => {
     let result = [];
     let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let charactersLength = characters.length;
@@ -8,3 +8,5 @@ exports.randomId = (length) => {
    }
    return result.join('');
 }
+
+export default randomId;
