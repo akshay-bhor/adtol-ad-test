@@ -6,6 +6,7 @@ module.exports = {
         native: "./js/native.js",
         banner: "./js/banner.js",
         feed: "./js/feed.js",
+        pop: "./js/pop.js"
     },
     module: {
         rules: [
