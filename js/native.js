@@ -13,7 +13,7 @@ if (!isHidden(parent)) {
   // Get token
   const token =
     currScript.getAttribute("id") ||
-    "3f10d40d47ed2e4cac61f56597a91c7849d359b5017a4d5fbd9910289c1f76f09adecf751e7ab0a5872faffad2f8a2608fc871efdad96729b534c1757b0a7c957a69b010fab6fcf4e464ac87932cdcfb58e16659ba215aa1ea2c58a4b70203593958112a472390fb4a5942206196165c64bc933990-5c6aaf65494ab246-b2695dcf2c5ca25d89edb8b82f074ab055ec4f146b433fa9eec3c9d2245e2647";
+    "7a965029e37662e55eb98423399411cf539161a909589566b9a4d71c9edf660e8944a819e16727726c4e7b0a0ba9d68f8ca60d87c13e24ca69437d4ca67e664866d93d02d6f9e5d759b9c142526838cb641323756009f059c15ad3a966949a3211346d3f7152ed7ad8bd28e96c0e1d2fb9967c2ecc2951ea88a1845f-1000525b13d0f812-fd27323d375c17fe603629fe849824bed5a4f16adddc98b0450970912fa2cf43";
 
   // Create element
   let childEle = document.createElement("div");
@@ -72,7 +72,7 @@ if (!isHidden(parent)) {
         >
           <a
             target="_blank"
-            style="font-size:18px;display:inline-block;text-decoration:none;overflow:hidden;text-overflow:ellipsis;line-height:24px"
+            style="font-size:16px;display:inline-block;text-decoration:none;overflow:hidden;text-overflow:ellipsis;line-height:24px"
             href="${res[i].process}"
             >${res[i].title}</a
           >
