@@ -13,7 +13,7 @@ if (!isHidden(parent)) {
   // Get token
   const token =
     currScript.getAttribute("id") ||
-    "7a965029e37662e55eb98423399411cf539161a909589566b9a4d71c9edf660e8944a819e16727726c4e7b0a0ba9d68f8ca60d87c13e24ca69437d4ca67e664866d93d02c5e6e58f02bddd100d68638d6618247f2640f0148764c38f6288c86d00227b72376ceb44d4b223f5560f2b26b5ce2357cf311d-1000525b13d0f812-59b4c611e70a7ee8781dda76386724dde50bcce84417ebc280a0d1c2ac843318";
+    "2f221b0b2c2d033b0bb428da68c332dd17d4b0aae30b464a1be0f08018a3f7af64c1322431049ed18929c66ad3782a3d7737809ba46767fbc7c97d2d0e94849179af60cd36b4a1156d39f344cb1a304a1db41880844e7043418117e101ac4284048439c3f0ff7039e91200fdf1f21fabb386edfb1807-58431a3618b268b8-681dd7cc36f6f72b35005c016e22914254348f5eda3755b60ee1816b646cd9f8";
 
   // Create element
   let childEle = document.createElement("div");
@@ -43,7 +43,7 @@ if (!isHidden(parent)) {
         html += `
         <div style="background:none!important;padding:0.5em;box-sizing:border-box">
         <div style="display:inline-block;width:320px;height:250px;overflow:hidden">
-          <a
+          <a target="_blank"
             style="display:block"
             ${rel}
             href="${res[i].process}"
@@ -65,6 +65,7 @@ if (!isHidden(parent)) {
           <div style="display:block">
             <a style="display:inline-block;text-decoration:none!important;overflow:hidden;text-overflow:ellipsis;line-height:24px;height:48px"
               ${rel}
+              target="_blank"
               href="${res[i].process}"
               >${res[i].title}</a
             >
